@@ -40,7 +40,6 @@ import { ShopinterestProvider } from '../providers/shopinterest/shopinterest';
 import { PromotioninterestProvider } from '../providers/promotioninterest/promotioninterest';
 import { SearchKeywordProvider } from '../components/search-input/search-input.service';
 import { OrderProvider } from '../providers/order/order';
-import { OmiseProvider } from '../providers/omise/omise';
 
 @NgModule({
   declarations: [
@@ -104,8 +103,7 @@ import { OmiseProvider } from '../providers/omise/omise';
     ShopinterestProvider,
     PromotioninterestProvider,
     SearchKeywordProvider,
-    OrderProvider,
-    OmiseProvider,
+    OrderProvider
   ]
 })
 export class AppModule { }

@@ -16,8 +16,8 @@ export class HomeProvider {
   }
 
   getHomeData(location): Promise<HomeModel> {
-    return this.http.get(this.API_URL + '/api/customer/home/' + location.coords.latitude + '/ ' + location.coords.longitude)
-      // return this.http.get('./assets/json/home.json')
+    //return this.http.get(this.API_URL + '/api/customer/home/' + location.coords.latitude + '/ ' + location.coords.longitude)
+    return this.http.get('./assets/json/home.json')
       .toPromise()
       .then(response => response as HomeModel)
       .catch(this.handleError);

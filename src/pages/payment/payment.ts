@@ -5,7 +5,6 @@ import { AlertProvider } from '../../providers/alert/alert';
 import { TranslateService } from '@ngx-translate/core';
 import { OrderModel } from '../../assets/model/order.model';
 import { OrderProvider } from '../../providers/order/order';
-import { OmiseProvider } from '../../providers/omise/omise';
 import { Constants } from '../../app/app.constants';
 import { CartProvider } from '../../providers/cart/cart';
 
@@ -40,7 +39,6 @@ export class PaymentPage {
     private translate: TranslateService,
     private alertCtrl: AlertController,
     private orderProvider: OrderProvider,
-    private omiseProvider: OmiseProvider,
     private cart: CartProvider
   ) {
   }
@@ -60,20 +58,20 @@ export class PaymentPage {
 
     if (this.payment === '1') {
 
-      this.omiseProvider.getTokenByCredit(this.omiseKey, this.paymentDetail).then((res: any) => {
-        console.log(res);
-        this.order.omiseToken = res.id;
-        this.payOrder();
-      }, (err) => {
-        this.loading.dismiss();
-        console.log(err);
-        let language = this.translate.currentLang;
-        if (language === 'th') {
-          this.alert.onAlert('การชำระเงิน', 'บัตรเครดิตไม่ถูกต้อง', 'ตกลง');
-        } else if (language === 'en') {
-          this.alert.onAlert('Payment', 'Credit Card Error.', 'OK');
-        }
-      });
+      // this.omiseProvider.getTokenByCredit(this.omiseKey, this.paymentDetail).then((res: any) => {
+      //   console.log(res);
+      //   this.order.omiseToken = res.id;
+      //   this.payOrder();
+      // }, (err) => {
+      //   this.loading.dismiss();
+      //   console.log(err);
+      //   let language = this.translate.currentLang;
+      //   if (language === 'th') {
+      //     this.alert.onAlert('การชำระเงิน', 'บัตรเครดิตไม่ถูกต้อง', 'ตกลง');
+      //   } else if (language === 'en') {
+      //     this.alert.onAlert('Payment', 'Credit Card Error.', 'OK');
+      //   }
+      // });
 
     } else {
       this.payOrder();
