@@ -12,6 +12,12 @@
         "image": "https://res.cloudinary.com/hhb4v5ds8/image/upload/v1521001644/xfdpbudobfzmwssdvdqt.jpg",
         "isvideo": false,
         "videoid": ""
+      },
+      {
+        "_id": "ads003",
+        "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1521001276/stq1gx94zla4ikbssbes.jpg",
+        "isvideo": true,
+        "videoid": "###"
       }
     ]
   },
@@ -19,76 +25,76 @@
     "title": "Hot Price",
     "items1": [{
       "_id": "ht0001",
-      "image": "./assets/imgs/hot_price/hotprice1.png"
+      "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1521000518/xu43da8qa9fqqfdheom6.jpg"
     }, {
       "_id": "ht0002",
-      "image": "./assets/imgs/hot_price/hotprice2.png"
+      "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1520999957/sua2xqa8amcmhpcbyc4k.jpg"
     }, {
       "_id": "ht0003",
-      "image": "./assets/imgs/hot_price/hotprice3.png"
+      "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1517311145/o9dlrvwiev6wlu6e2kzz.jpg"
     }, {
       "_id": "ht0004",
-      "image": "./assets/imgs/hot_price/hotprice4.png"
+      "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516766910/rqsinlpxvcjm6kmmuyzg.jpg"
     }, {
       "_id": "ht0005",
-      "image": "./assets/imgs/hot_price/hotprice5.png"
+      "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516766646/mvq63oyreoi4kt2u95sf.jpg"
     }, {
       "_id": "ht0006",
-      "image": "./assets/imgs/hot_price/hotprice6.png"
+      "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516353403/xsxaeggvoq4u7hh4aeli.jpg"
     }],
     "items2": [{
       "_id": "ht0007",
-      "image": "./assets/imgs/hot_price/hotprice7.png"
+      "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516765652/lnz9d5tsgxmeqijlrttf.jpg"
     }, {
       "_id": "ht0008",
-      "image": "./assets/imgs/hot_price/hotprice8.png"
+      "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516334683/h0bet4dltubkixvukodj.jpg"
     }, {
       "_id": "ht0009",
-      "image": "./assets/imgs/hot_price/hotprice9.png"
+      "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516353343/iflwmfxvg9texltrlass.jpg"
     }, {
       "_id": "ht0010",
-      "image": "./assets/imgs/hot_price/hotprice10.png"
+      "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516333894/mcl3pwf3clam1q0ucgdx.jpg"
     }, {
       "_id": "ht0011",
-      "image": "./assets/imgs/hot_price/hotprice11.png"
+      "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516267746/lztn2j5qymj0dt0zru9h.jpg"
     }, {
       "_id": "ht0012",
-      "image": "./assets/imgs/hot_price/hotprice12.png"
+      "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516181566/oeyjakpwjixfb6zemkzu.jpg"
     }]
   },
   "categories": {
     "title": "Category",
     "items": [{
         "_id": "cat0000",
-        "image": "./assets/imgs/Catagory/cat20.png"
+        "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516079324/hkqelzvbzltu2dem5wzq.jpg"
       },
       {
         "_id": "cat0001",
-        "image": "./assets/imgs/Catagory/cat21.png"
+        "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516016720/mthsynsni9abs6f3reee.jpg"
       },
       {
         "_id": "cat0002",
-        "image": "./assets/imgs/Catagory/cat22.png"
+        "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516014161/zebyzoiuvqfgvmbby0ce.jpg"
       },
       {
         "_id": "cat0003",
-        "image": "./assets/imgs/Catagory/cat23.png"
+        "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516007163/iweahua9nsxxhvtge7ko.jpg"
       },
       {
         "_id": "cat0004",
-        "image": "./assets/imgs/Catagory/cat24.png"
+        "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516007163/iweahua9nsxxhvtge7ko.jpg"
       },
       {
         "_id": "cat0005",
-        "image": "./assets/imgs/Catagory/cat25.png"
+        "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516007163/iweahua9nsxxhvtge7ko.jpg"
       },
       {
         "_id": "cat0006",
-        "image": "./assets/imgs/Catagory/cat26.png"
+        "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516007163/iweahua9nsxxhvtge7ko.jpg"
       },
       {
         "_id": "cat0007",
-        "image": "./assets/imgs/Catagory/cat17.png"
+        "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516007163/iweahua9nsxxhvtge7ko.jpg"
       },
       {
         "_id": "cat0008",
@@ -111,7 +117,7 @@
           "name": "Poppen",
           "rating": 4,
           "distance": 0.2,
-          "image": "./assets/imgs/shop/shop5.png",
+          "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516181566/oeyjakpwjixfb6zemkzu.jpg",
           "isAds": true
         },
         {
@@ -119,7 +125,7 @@
           "name": "ข้าวหมูแดงอาก๋ง",
           "rating": 5,
           "distance": 0.9,
-          "image": "./assets/imgs/shop/shop1.png",
+          "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516016579/siemgxj22g990ppkhbqc.jpg",
           "isAds": true
         },
         {
@@ -127,7 +133,7 @@
           "name": "แซ่บแน่",
           "rating": 4,
           "distance": 2.1,
-          "image": "./assets/imgs/shop/shop6.png",
+          "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516015509/cymuhrjy8pt9mahougtp.jpg",
           "isAds": false
         },
         {
@@ -135,7 +141,7 @@
           "name": "Sushi World",
           "rating": 4,
           "distance": 3.9,
-          "image": "./assets/imgs/shop/shop7.png",
+          "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516079324/hkqelzvbzltu2dem5wzq.jpg",
           "isAds": false
         }
       ]
@@ -147,7 +153,7 @@
           "name": "ภัตตาคารหลวง",
           "rating": 5,
           "distance": 5.2,
-          "image": "./assets/imgs/shop/shop8.png",
+          "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516079324/hkqelzvbzltu2dem5wzq.jpg",
           "isAds": true
         },
         {
@@ -155,7 +161,7 @@
           "name": "แซ่บแน่",
           "rating": 4,
           "distance": 11.4,
-          "image": "./assets/imgs/shop/shop6.png",
+          "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516079324/hkqelzvbzltu2dem5wzq.jpg",
           "isAds": true
         },
         {
@@ -163,7 +169,7 @@
           "name": "ร้านบ้านสวน",
           "rating": 4,
           "distance": 8.2,
-          "image": "./assets/imgs/shop/shop9.png",
+          "image": "https://res.cloudinary.com/ha7s6qhcg/image/upload/v1516079324/hkqelzvbzltu2dem5wzq.jpg",
           "isAds": false
         }
       ]
